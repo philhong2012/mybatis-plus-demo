@@ -1,0 +1,9 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    #schema: classpath:db/schema-h2.sql
+    #data: classpath:db/data-h2.sql
+    url: jdbc:oracle:thin:@192.168.18.89:1521:orcl
+    username: TIP_AREA_CONTROL
+    password: TIP_AREA_CONTROL
